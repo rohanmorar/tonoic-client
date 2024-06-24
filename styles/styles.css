@@ -1,0 +1,78 @@
+body {
+    background-color: #0A2347;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    padding: 20px;
+}
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 80px;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 10px 0;
+}
+
+.description {
+    font-size: 0.8em;
+    text-align: left;
+    margin: 0 0 30px 0;
+    padding-left: 20px;
+}
+
+.form-container {
+    margin: 40px 0;
+}
+
+.beta-signup {
+    margin-top: 100px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #1a4672;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #225279;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
